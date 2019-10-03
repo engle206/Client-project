@@ -1,0 +1,46 @@
+<!doctype html>
+<head>
+  <title>Art by Molly</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-color:hsl(0, 0%, 94%);">
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+<h1 style="background-color:hsl(110, 100%, 90%);"><i>Contact Information</i></h1>
+
+<p>If you want to contact me for a custom piece, reach out to me over email. If you want to see some other new pieces of art please check out my instagram. I will post some active prints on my Etsy store for sale once the shop goes up. Finally, if you order a custom piece you can come pick it up at my shop location. Thanks for stopping by!</p>
+
+
+<h3 style="background-color:hsl(80, 100%, 90%);"><i><strong>E-mail: mollyb0716@sbcglobal.net</i></strong></h3>
+<h3 style="background-color:hsl(50, 100%, 90%);"><i><strong>Instagram: @molboo16</i></strong></h3>
+<h3 style="background-color:hsl(700, 100%, 90%);"><i><strong>Etsy Shop: Coming Soon</i></strong></h3>
+
+<h3 style="background-color:hsl(80, 100%, 90%);"><i><strong>Location:</i></strong></h3>
+
+<div id="googleMap" style="width:30%;height:300px;"></div>
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(44.980381, -93.233741),
+  zoom:15,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+
+
+</body>
+
+</html>
