@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogue SYSTEM "client.dtd">
+<portfolio>
+      <title></title>
+      <color></color>
+      <theme></theme>
+      <style></style>
+      <height-inches></height-inches>
+      <width-inches></width-inches>
+</portfolio>
+
+<portfolio>
+    <title>Anatomical Red Heart</title>
+    <color>Red, Black, White</color>
+    <theme>Anatomically Accurate</theme>
+    <style>Water Color</style>
+    <height-inches>14</height-inches>
+    <width-inches>11</width-inches>
+</portfolio>
+<portfolio>
+    <title>Cow Skull</title>
+    <color>Black and White</color>
+    <theme>Anatomically Accurate</theme>
+    <style>Single line pen</style>
+    <height-inches>14</height-inches>
+    <width-inches>11</width-inches>
+</portfolio>
+<portfolio>
+    <title>Moon</title>
+    <color>Black, Blue, White</color>
+    <theme>Nature</theme>
+    <style>Oil Paint</style>
+    <height-inches>14</height-inches>
+    <width-inches>11</width-inches>
+</portfolio>
