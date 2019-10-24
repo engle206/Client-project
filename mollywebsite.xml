@@ -11,7 +11,11 @@
 
 <portfolio>
     <title>Anatomical Red Heart</title>
-    <color>Red, Black, White</color>
+    <color>
+      <color 1>Red</color 1>
+      <color 2>Black</color 2>
+      <color 3>White</color 3>
+    </color>
     <theme>Anatomically Accurate</theme>
     <style>Water Color</style>
     <height-inches>14</height-inches>
@@ -19,7 +23,10 @@
 </portfolio>
 <portfolio>
     <title>Cow Skull</title>
-    <color>Black and White</color>
+    <color>
+      <color 1>Black</color 1>
+      <color 2>White</color 2>
+    </color>
     <theme>Anatomically Accurate</theme>
     <style>Single line pen</style>
     <height-inches>14</height-inches>
@@ -27,7 +34,11 @@
 </portfolio>
 <portfolio>
     <title>Moon</title>
-    <color>Black, Blue, White</color>
+    <color>
+      <color 1>Blue</color 1>
+      <color 2>Black</color 2>
+      <color 3>White</color 3>
+    </color>
     <theme>Nature</theme>
     <style>Oil Paint</style>
     <height-inches>14</height-inches>
