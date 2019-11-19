@@ -1,0 +1,8 @@
+<!ELEMENT portfolio (painting+)> 
+<!Element painting (title, color, theme, style, height-inches, width-inches)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT theme (#PCDATA)>
+<!ELEMENT style (#PCDATA)>
+<!ELEMENT height-inches (#PCDATA)>
+<!ELEMENT width-inches (#PCDATA)>
