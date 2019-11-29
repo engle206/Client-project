@@ -33,12 +33,3 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-p {
-  font-family: "Arial Black", Gadget, sans-serif;
-}
