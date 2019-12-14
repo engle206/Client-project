@@ -2,6 +2,7 @@
 <head>
   <title>Art by Molly</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="background-color:hsl(0, 0%, 100%);">
 
@@ -17,22 +18,92 @@
 
 <h1 style="background-color:hsl(190, 100%, 90%);"><i>Portfolio</i></h1>
 
-<p>My artwork is inspired significantly by nature and the human body. As you scroll through my portfolio you will be able to see that I focus on the human heart and flower themed patterns. However, my art is not limited by these ideas. If you are interested in purchasing a print please go to the Contact page to find my Etsy store. If you wish to propose an idea for a custom creation, please don't limit your ideas to what is shown here.</p>
 
-<img src="images/anatomicalredheart.jpg" alt="red heart" style="width:350px;height:450px;">
-<img src="images/cowskull.jpg" alt="skull" style="width:350px;height:450px;">
-<img src="images/moon.jpg" alt="moon" style="width:350px;height:450px;">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/anatomicalredheart.jpg" style="width:60%">
+  <div class="text">Anatomical Red Heart</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/cowskull.jpg" style="width:60%">
+  <div class="text">Cow Skull</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/moon.jpg" style="width:60%">
+  <div class="text">Moon</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/flowerssprouting.jpg" style="width:60%;height:30%">
+  <div class="text">Flowers Sprouting</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/rootsspreading.jpg" style="width:60%">
+  <div class="text">Roots Spreading</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/geometricheart.jpg" style="width:60%">
+  <div class="text">Geometric Heart</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/floralblackhole.jpg" style="width:60%">
+  <div class="text">Floral Black Hole</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/handholdingheart.jpg" style="width:60%">
+  <div class="text">Hand Holding Heart</div>
+</div>
+
+
+</div>
 <br>
-<p> Anatomical Red Heart, Cow Skull, and Moon </p>
-<img src="images/flowerssprouting.jpg" alt="flowers" style="width:355px;height:500px;">
-<img src="images/rootsspreading.jpg" alt="swirls and flowers" style="width:355px;height:500px;">
-<img src="images/geometricheart.jpg" alt="geometric heart" style="width:355px;height:500px;">
-<br>
-<p>Flowers Sprouting, Roots Spreading, Geometric Heart   </p>
-<img src="images/floralblackhole.jpg" alt="screen print" style="width:500px;height:500px;">
-<img src="images/handholdingheart.jpg" alt="hand and heart" style="width:355px;height:500px;">
-<br>
-<p> Floral Black Hole, Hand Holding Heart </p>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
 </body>
 
